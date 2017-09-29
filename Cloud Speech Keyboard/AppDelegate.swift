@@ -20,7 +20,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 	
 	func applicationDidFinishLaunching(aNotification: NSNotification) {
 		
-		let identifier = NSBundle.mainBundle().bundleIdentifier;
+		let identifier = Bundle.main.bundleIdentifier;
 		server = IMKServer.init(name: kConnectionName, bundleIdentifier: identifier)
 		
 	}
