@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		956F446B1F7E56670091C87C /* NumberInputController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956F446A1F7E56670091C87C /* NumberInputController.swift */; };
 		95E3FCF01F7E54A100DFA233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3FCEF1F7E54A100DFA233 /* AppDelegate.swift */; };
 		95E3FCF21F7E54A100DFA233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95E3FCF11F7E54A100DFA233 /* Assets.xcassets */; };
 		95E3FCF51F7E54A100DFA233 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95E3FCF31F7E54A100DFA233 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		956F446A1F7E56670091C87C /* NumberInputController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberInputController.swift; sourceTree = "<group>"; };
 		95E3FCEC1F7E54A100DFA233 /* Cloud Speech Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Speech Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E3FCEF1F7E54A100DFA233 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95E3FCF11F7E54A100DFA233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				95E3FCEF1F7E54A100DFA233 /* AppDelegate.swift */,
+				956F446A1F7E56670091C87C /* NumberInputController.swift */,
 				95E3FCF11F7E54A100DFA233 /* Assets.xcassets */,
 				95E3FCF31F7E54A100DFA233 /* MainMenu.xib */,
 				95E3FCF61F7E54A100DFA233 /* Info.plist */,
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95E3FCF01F7E54A100DFA233 /* AppDelegate.swift in Sources */,
+				956F446B1F7E56670091C87C /* NumberInputController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +269,7 @@
 				DEVELOPMENT_TEAM = XBFR7PYP8H;
 				INFOPLIST_FILE = "Cloud Speech Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "hk.com.resbo.gcsime.Cloud-Speech-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = hk.com.resbo.gcsime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -281,7 +285,7 @@
 				DEVELOPMENT_TEAM = XBFR7PYP8H;
 				INFOPLIST_FILE = "Cloud Speech Keyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "hk.com.resbo.gcsime.Cloud-Speech-Keyboard";
+				PRODUCT_BUNDLE_IDENTIFIER = hk.com.resbo.gcsime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};

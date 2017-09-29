@@ -28,5 +28,17 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>LSBackgroundOnly</key>
+	<string>1</string>
+	<key>InputMethodConnectionName</key>
+	<string>NumberInput_1_Connection</string>
+	<key>InputMethodServerControllerClass</key>
+	<string>NumberInputController</string>
+	<key>tsInputMethodIconFileKey</key>
+	<string>nine.tiff</string>
+	<key>tsInputMethodCharacterRepertoireKey</key>
+	<array>
+		<string>Latn</string>
+	</array>
 </dict>
 </plist>
